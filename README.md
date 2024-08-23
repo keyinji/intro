@@ -36,5 +36,18 @@ What is PL
       
   
 What is python
+Free and Open source software (FOSS, FLOSS)
+  It's always going to be free
+  Anyone can look at the source code, ANYONE can contribute
+  Contrast with: closed source. proprietary software like Microsoft
+  Python FOSS but also a company
+
+Python has versions 
+  updated over the years
+  started with v1, v2 2000s. v3 today. difference between each version is huge, be careful
+
+Python has a ton of application
+  Science, data science, in industry. taken java or overtaken java, AI, health studies, 
+  Big pros: easier, syntax isn't so bad
   
     
