@@ -83,5 +83,15 @@
 - **Expression Evaluation:** An expression is evaluated one step at a time until a final value is reached.
 
 - **Tracing:** The process of manually stepping through the evaluation of an expression to see how it is simplified step-by-step.
+  - **Example:** Tracing `x = x + x` where `x = 4`
+    1. **Substitute:** Replace variables with their values only on the right side.
+       - `x = 4 + 4`
+    2. **Result:** `x = 8`
+
+## Order of Operations (OOO)
+
+1. **Substitution:** Replace variables with their values.
+2. **PEMDAS:** Apply the order of operations (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction).
+3. **Assignment:** Update the variable's value in the lookup table.
 
 
