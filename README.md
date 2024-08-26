@@ -72,5 +72,16 @@
 - **Python as a Calculator:**
   - Can perform simple math operations.
   - Uses parentheses to enforce order of operations (PEMDAS).
+ 
+## Expressions and Tracing
+
+- **Expression:** A line of code that can be simplified.
+  - **Example:** `4 + 4 * 2`
+    1. Evaluate `4 + 8` (one step in the evaluation)
+    2. Result: `12` (final value)
+
+- **Expression Evaluation:** An expression is evaluated one step at a time until a final value is reached.
+
+- **Tracing:** The process of manually stepping through the evaluation of an expression to see how it is simplified step-by-step.
 
 
