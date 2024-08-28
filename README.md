@@ -88,10 +88,80 @@
        - `x = 4 + 4`
     2. **Result:** `x = 8`
 
+
 ## Order of Operations (OOO)
 
-1. **Substitution:** Replace variables with their values.
-2. **PEMDAS:** Apply the order of operations (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction).
+To evaluate expressions correctly in Python, follow these steps:
+
+1. **Substitution:** Replace variables with their current values.
+2. **PEMDAS:** Apply the order of operations:
+   - **Parentheses**
+   - **Exponents**
+   - **Multiplication and Division** (from left to right)
+   - **Addition and Subtraction** (from left to right)
 3. **Assignment:** Update the variable's value in the lookup table.
+
+---
+
+## Topics
+
+### Review
+
+- **Terms:**
+  - **exp** (expression)
+  - **eval** (evaluate)
+  - **trace** (track)
+  - **lookup table** (variable storage)
+- **Python as a Calculator:** Python functions similarly to a calculator but with added support for variables.
+
+### New Concepts
+
+- **Data:**
+  - **Types:** Classification of data (e.g., integers, floats).
+  - **Values:** The actual data being stored (e.g., `4`, `2.0`).
+- **Type Function and Print Function:**
+  - **`type()`:** Use this function to determine the data type of a value.
+  - **`print()`:** Use this function to display the value.
+- **Floats and Strings:**
+  - **Floats:** Decimal numbers (e.g., `2.0`).
+  - **Strings:** Text data (e.g., `"hello"`).
+
+---
+
+## Type
+
+All data in a computer, whether text, numbers, or images, has two fundamental elements:
+
+- **VALUE** || **TYPE**
+
+  Examples:
+  - `4`: **Type:** `int`, **Value:** `4`
+  - `2.0`: **Type:** `float`, **Value:** `2.0`
+
+Python supports both whole numbers (integers) and decimal numbers (floats), similar to how a calculator works.
+
+### Identifying Value and Type
+
+To identify the type and value of data in Python:
+
+- **Get the Type:** Use the `type()` function.
+- **Get the Value:** Use the `print()` function.
+
+  ```python
+  number = 4
+  print(type(number))  # Output: <class 'int'>
+  print(number)        # Output: 4
+
+  decimal = 2.0
+  print(type(decimal)) # Output: <class 'float'>
+  print(decimal)       # Output: 2.0
+
+
+Type Conversion
+
+We cam convert data  from one TYPE into another TYPE. However, in some cases, this runs the risk of losing data.
+Ex: 3: int -> 3.0 : float 
+    3.1: float -> 3: int !!! DATA LOST!!!!!
+
 
 
