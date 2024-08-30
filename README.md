@@ -247,23 +247,116 @@ Consider this operator: `+`
     z = "hi"
 
     a = 4 + 4 > x == y
+    a = 4 + 4 > 4 == False
+    a = 8 > 4 == False
+    a = True == False
     ```
     **Result**: FALSE
 
 2.
     ```python
     s = "hi"
-    # Evaluate: s != s + s != True
+    s != s + s != True
+    "hi" != "hi" + "hi" != True
+    "hi" != "hihi" != True
+    True != True
+
+    "hi" != "hihi" and "hihi" != True
+    True and True
     ```
-    **Result**: FALSE
+    **Result**: FALSE and TRUE
 
 3.
     ```python
     s = "py"
     x = 3
     len(s) >= 2 and (x != x or False)
+    len(s) >= 2 and (3 != 3 or False)
+    2 >= 2 and (False or False)
+    True and False
     ```
     **Result**: FALSE
+
+# Conversion Notes and Functions in Python
+
+## Conversion
+
+### Bool to Int
+- `False` converts to `0`
+- `True` converts to `1`
+- Any other integer value maps to `1`
+
+### Int to String
+- Use the `str()` function to convert an integer to a string.
+  ```python
+  str(10)  # "10"
+### String to Int
+- If the string represents a number, use the `int()` function to convert it.
+  ```python
+  int("10")  # 10
+
+
+# Functions in Python
+
+## Basic Function Definition
+
+Functions are defined with a name, input parameters, and a body.
+
+- **Example Definitions:**
+  - `f(x) = 2x + 4`
+  - `g(x) = x + x`
+
+  - **Name:** `f` or `g`
+  - **Input:** `x`
+  - **Body:** The part after the equal sign
+
+## Calling a Function
+
+To call a function, use its name followed by parentheses with arguments.
+
+- **Example Call:**
+  - `f(5)`
+
+  Calling `f(5)` means:
+  - **Variable Assignment:** `x = 5`
+  - **Body:** `2 * x + 4`
+
+## More Complex Example
+
+- **Function Definition:**
+  - `h(x, y) = x + y`
+
+- **Calling the Function:**
+  - `h(1, 2)` results in `1 + 2`
+  - `h(2, 1)` results in `2 + 1`
+
+## Python Syntax Examples
+
+- **Function with Multiple Inputs:**
+  - `def addition(x, y): return x + y`
+
+- **Function with No Input:**
+  - `def fun(): return 2`
+
+- **Function with Many Inputs:**
+  - `def fun1(a, b, c, d, e, f, ...): return a`
+
+- **Function with No Return Value:**
+  - `def print_greet(name): print("Hi " + name)`
+
+## Type Annotations in Python
+
+Functions can include type annotations to specify the types of input parameters and return values.
+
+- **Example:**
+  - `def add(x: int, y: int) -> int: return x + y`
+
+  - **Type Definition of a Function:**
+    - `add: int -> int -> int`
+
+  - **Type Definition of a Variable:**
+    - `x: int`
+
 
 
 
