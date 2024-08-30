@@ -207,18 +207,63 @@ The operation of turning one type into another is called casting. In Python, cas
 Python is better than a calculator in that it can operate on strings. Strings are sequences of text or characters. They "string" characters together and are represented by the `str` type in Python.
 
 
-Strings
--Strings: textual data
-  wx: "eric", "sf1"
-Motibatyion for types
-  consider this operator: "+"
-  TYpes inform the computer how the data should be delath with
-   1+1 = 2
-  "1"+"1" = "11" => concatenation
+## Strings
 
-Booleans
-Simple ttype it has 2 2 values
-  True or false
+- **Strings**: Textual data
+  - Examples: `"eric"`, `"sf1"`
+
+## Motivation for Types
+
+Consider this operator: `+`
+- Types inform the computer how the data should be dealt with.
+  - `1 + 1` results in `2`
+  - `"1" + "1"` results in `"11"` (concatenation)
+
+## Booleans
+
+- **Booleans**: A simple type with 2 values
+  - **True** or **False**
+  - **`bool`** for short
+- Comes with a range of new operations:
+  - `AND`, `OR`, `NOT`, `XOR`, `XAND`, `NOR`
+- Other new operations (logical operations):
+  - `==` equality
+  - `!=` inequality
+  - Comparisons: `<`, `>`, `<=`, `>=`
+
+## Revised OOO
+
+1. Substitution
+2. PEMDAS
+3. Logical operators
+4. Variable assignment
+
+## Practice Traces
+
+1. 
+    ```python
+    x = 4 
+    y = False
+    z = "hi"
+
+    a = 4 + 4 > x == y
+    ```
+    **Result**: FALSE
+
+2.
+    ```python
+    s = "hi"
+    # Evaluate: s != s + s != True
+    ```
+    **Result**: FALSE
+
+3.
+    ```python
+    s = "py"
+    x = 3
+    len(s) >= 2 and (x != x or False)
+    ```
+    **Result**: FALSE
 
 
 
