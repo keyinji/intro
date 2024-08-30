@@ -196,7 +196,9 @@ x = 4
 x = x + 0.0  # Adding 0.0 to an integer results in a float
 print(x)     # Output: 4.0
 
-#float -> int always rounds down
+
+- **Hack Way:**
+- **float** -> int always rounds down
 !!BE CAREFUL DATA LOSS
 
 The operation of turning one step to another is called casting. 
