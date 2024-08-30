@@ -190,11 +190,12 @@ Python provides built-in functions to convert data between types:
   print(x)      # Output: 4.0
   
 
+
 - **Hack Way:**
-```python
-x = 4
-x = x + 0.0  # Adding 0.0 to an integer results in a float
-print(x)     # Output: 4.0
+  ```python
+  x = 4
+  x = x + 0.0  # Adding 0.0 to an integer results in a float
+  print(x)     # Output: 4.0
 
 
 ## Casting in Python
@@ -205,6 +206,19 @@ The operation of turning one type into another is called casting. In Python, cas
 
 Python is better than a calculator in that it can operate on strings. Strings are sequences of text or characters. They "string" characters together and are represented by the `str` type in Python.
 
+
+Strings
+-Strings: textual data
+  wx: "eric", "sf1"
+Motibatyion for types
+  consider this operator: "+"
+  TYpes inform the computer how the data should be delath with
+   1+1 = 2
+  "1"+"1" = "11" => concatenation
+
+Booleans
+Simple ttype it has 2 2 values
+  True or false
 
 
 
