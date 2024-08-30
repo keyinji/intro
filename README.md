@@ -197,15 +197,13 @@ x = x + 0.0  # Adding 0.0 to an integer results in a float
 print(x)     # Output: 4.0
 
 
-- **Hack Way:**
-- **float** -> int always rounds down
-!!BE CAREFUL DATA LOSS
+## Casting in Python
 
-The operation of turning one step to another is called casting. 
+The operation of turning one type into another is called casting. In Python, casting involves converting between different data types, such as from integers to floats or vice versa.
 
-new Type string
-Python is better than a calculator in that it can opetrate on strings
-Strings are texts, words. they "strings" characters together. str for short 
+## String Type
+
+Python is better than a calculator in that it can operate on strings. Strings are sequences of text or characters. They "string" characters together and are represented by the `str` type in Python.
 
 
 
