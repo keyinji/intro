@@ -356,7 +356,138 @@ Functions can include type annotations to specify the types of input parameters 
 
   - **Type Definition of a Variable:**
     - `x: int`
+### Function Definition
+- **Mathematical Functions:**
+  - \( f(x) = 2 \cdot x + 4 \)
+  - \( g(x) = x + x \)
+- **Components of a Function:**
+  - **Name:** `g`
+  - **Inputs:** `(x)`
+  - **Body:** `x + x`
 
+- **Python Function Definition:**
+  - **Header:**
+    ```python
+    def addition(x, y):
+    ```
+  - **Body (indented by 4 spaces):**
+    ```python
+        return x + y
+    ```
+
+- **Functions Without Input:**
+  - ```python
+    def fun():
+        return 2
+    ```
+
+- **Functions Without Return:**
+  - ```python
+    def print_greet():
+        print("hello")
+    ```
+
+### Calling a Function
+- **Example:** `f(5)`
+  - Calls `f` with argument `5`
+  - All arguments are positional
+
+### Python Type Annotations (Required in This Course)
+- **Example:**
+  ```python
+  def addition(x: int, y: int) -> int:
+
+### Function Definition
+
+- **Mathematical Functions**
+  - `f(x) = 2 * x + 4`
+  - `g(x) = x + x`
+
+- **Function Components**
+  - `g -> name`
+  - `(x) -> inputs`
+  - `x + x -> body`
+
+- **Python Examples**
+
+  - **Function with two inputs:**
+
+    ```python
+    def addition(x: int, y: int) -> int:
+        return x + y
+    ```
+
+  - **Function with no input:**
+
+    ```python
+    def fun() -> int:
+        return 2
+    ```
+
+  - **Function with no return value:**
+
+    ```python
+    def print_greet():
+        print("hello")
+    ```
+
+### Calling a Function
+
+- `f(5)` 
+  - Calls `f` with argument `5`.
+  - All arguments are positional.
+
+### Python: Type Annotations (required in this course)
+
+- **Function with type annotations:**
+
+  ```python
+  def addition(x: int, y: int) -> int:
+      return x + y
+
+### Parts of a Function
+
+- **Type Signature**  
+  - `def addition(x: int, y: int) -> int:` **<-- header**
+
+- **Function Definition**
+  - `return x + y` **<-- body**
+
+- **Important Notes**
+  - Remember: Indentation is part of the function.
+  - **Function Call**  
+    - `addition(1, 2)` **<-- call**
+  - **Parameters:** `x`, `y`
+  - **Arguments:** `(1, 2)` when `x = 1` and `y = 2`
+
+### Examples
+
+- **Function Definition:**
+  - `h(x, y) = x + y`
+  
+- **Function Call:**
+  - `h(1, 2) = 1 + 2`
+### Tracing
+
+- `def sub(x: int, y: int) -> int:`
+- `    return x - y`
+- `sub(1, 2)`
+- Positional arguments: map 1 to x and 2 to y.
+  1. Automatic variable assignment -> `x = 1, y = 2`
+  2. Expand function to its body (draw out the body) -> `x - y = 1 - 2 = -1`
+
+### Examples
+
+- `f(3)` -> `(x = 3; 3 * x + 2)` -> `3 * 3 + 2` -> `11`
+- `f(2)` -> `(x = 2; 3 * x + 2)` -> `3 * 2 + 2` -> `8`
+- `f(5)` > `0 + x`
+  1. (x = 5; 3 * x + 2) > `0 + x`
+  2. (3 * 5 + 2) > `0 + 0`
+  3. `17 > 0` **True**
+- `f(0)` > `0 + x`
+  1. (x = 0; 3 * x + 2) > `0 + x`
+  2. (3 * 0 + 2) > `0 + 0`
+  3. `2 > 0` **True**
 
 
 
