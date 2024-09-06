@@ -490,5 +490,18 @@ Functions can include type annotations to specify the types of input parameters 
   3. `2 > 0` **True**
 
 
+IF ELSE STATEMENT
+Remains true that python executes one line at a time 
 
+But our code can have brances 
 
+x = 4 
+if x < 10:
+  print("HELLO")
+else: 
+  print("boo")
+
+print("eyyy)
+
+> prints HELLO then eyyy
+> lines that get executed 0, 1, 2, 5
