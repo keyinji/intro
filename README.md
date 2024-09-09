@@ -489,11 +489,21 @@ Functions can include type annotations to specify the types of input parameters 
   2. (3 * 0 + 2) > `0 + 0`
   3. `2 > 0` **True**
 
+# Python Code Flow and Control
 
-IF ELSE STATEMENT
-Remains true that python executes one line at a time 
+Python executes code one line at a time, but it can handle branching and function calls to control the flow of execution.
 
-But our code can have brances 
+## Example: `if-else` Statement
+
+```python
+x = 4
+if x < 10:
+    print("HELLO")
+else:
+    print("boo")
+
+print("eyyy")
+
 
 x = 4 
 if x < 10:
@@ -505,3 +515,17 @@ print("eyyy)
 
 > prints HELLO then eyyy
 > lines that get executed 0, 1, 2, 5
+
+def add(x,y)
+  return x + y
+add(1,2)
+add(2,3)
+
+lines executed: 1, 2, 3, 2, 4, 2, 5 
+
+How to control the flow
+1) Branch using if
+2) function calls
+
+def starts the function
+return ends the function
