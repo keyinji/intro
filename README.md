@@ -496,13 +496,13 @@ Python executes code one line at a time, but it can handle branching and functio
 ## Example: `if-else` Statement
 
 ```python
-x = 4
-if x < 10:
+  x = 4
+  if x < 10:
     print("HELLO")
-else:
+  else:
     print("boo")
 
-print("eyyy")
+  print("eyyy")
 
 
 
