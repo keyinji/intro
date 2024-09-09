@@ -495,7 +495,7 @@ Python executes code one line at a time, but it can handle branching and functio
 
 ## Example: `if-else` Statement
 
-```python
+  ```python
   x = 4
   if x < 10:
     print("HELLO")
@@ -516,6 +516,7 @@ add(2,3)
 
 lines executed: 1, 2, 3, 2, 4, 2, 5 
 
+```
 # How to Control the Flow in Python
 
 ## Branching using if statements
