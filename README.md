@@ -505,13 +505,6 @@ else:
 print("eyyy")
 
 
-x = 4 
-if x < 10:
-  print("HELLO")
-else: 
-  print("boo")
-
-print("eyyy)
 
 > prints HELLO then eyyy
 > lines that get executed 0, 1, 2, 5
@@ -523,9 +516,25 @@ add(2,3)
 
 lines executed: 1, 2, 3, 2, 4, 2, 5 
 
-How to control the flow
-1) Branch using if
-2) function calls
+# How to Control the Flow in Python
 
-def starts the function
-return ends the function
+## Branching using if statements
+- Allows conditional execution of code blocks.
+
+## Function Calls
+- Execute a block of code defined in a function.
+
+### Key Points
+- `def` keyword: Defines a function.
+- `return` statement: Ends the function and sends a value back to the caller.
+
+## What Can Be Inside `return`
+- **Function Inputs:**
+  - Values passed to the function.
+- **Logical Operators:**
+  - Used to combine conditional statements (e.g., `and`, `or`, `not`).
+- **Arithmetic Operations:**
+  - Mathematical operations (e.g., `+`, `-`, `*`, `/`).
+- **Casting (e.g., `int()`):**
+  - Convert data types (e.g., `int()`, `str()`, `float()`).
+
