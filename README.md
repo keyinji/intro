@@ -539,3 +539,24 @@ lines executed: 1, 2, 3, 2, 4, 2, 5
 - **Casting (e.g., `int()`):**
   - Convert data types (e.g., `int()`, `str()`, `float()`).
 
+
+lists = lots of data, structures 
+
+x = [2, 5, 7, 8]
+
+index starts with 0 
+
+x[2] =7
+
+x[-1] = 8
+x[-2] =7
+
+len(x): number of elements in the list
+
+
+def class_avg(averages: list[int]) -> int:
+  code
+
+  
+
+
