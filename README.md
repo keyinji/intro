@@ -556,7 +556,60 @@ len(x): number of elements in the list
 
 def class_avg(averages: list[int]) -> int:
   code
+lists help us organize data in a structure 
 
+To structure something is to give it shape like a beginning, and end
+
+So far, we've only talked abput individual pieces od data in one variable at time>  Lists are like a mega variable that can hold many variables.
+
+The syntax
+--------
+Lists are denoted by an opening and closing square bracket. 
+Items (or elements) in a list are COMMA SEPARATED
+
+l =  [4.5.6.7]
+
+ALL elements in a list have an index, their position
+
+We can pull or update any single value in a list using its list. 
+
+l = [4.5.6.7]  0,1,2,3 or -4,-3,-2,-1
+NOTE: Lists start counting at 0 (99%)
+NOTE: In python, you can index in reverse 
+
+Syntax to pull a single value
+l[,index to pull from.]
+l[1]=> 5
+
+Syntax to update an index 
+l[0] == 99
+
+now l looks like [99,5,6,7]
+
+length: len(l) -> returns the number of elements in the list, ex: 4
+append(): l.append(4) -> this adds to the endof the list ']
+remove(): l.remove(4) -> find an element and removes it
+if many same items in a list and remove an item: it removes the first one it sees 
+
+apend is one variable
+
+list can have many types but keep it only one 
+
+ can't enforece one type 
+
+Slicing, we can get sublists from a list or a smaller version
+
+The syntax is
+l[_: _]
+
+On the left, we put _, we put the lower bound of the sublist INCLUSIVE
+
+When I omit the left number, what happens is a 0 is placed there implicitly
+
+On the right_, we put the uppr bound of the sublist EXCLUSIVE (aka up to but not including)
+
+When I omit the right number, it implicitly takes to the end of the list
   
-
+One more thing:
+Surprise! Strings are lists, lists of characters
 
