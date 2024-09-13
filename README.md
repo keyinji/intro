@@ -540,76 +540,70 @@ lines executed: 1, 2, 3, 2, 4, 2, 5
   - Convert data types (e.g., `int()`, `str()`, `float()`).
 
 
-lists = lots of data, structures 
+# Lists: Lots of Data, Structures
 
-x = [2, 5, 7, 8]
+# Lists are collections of items that help us organize data in a structured way.
 
-index starts with 0 
+x = [2, 5, 7, 8]  # Example of a list with four elements
 
-x[2] =7
+# Indexing starts at 0
+print(x[2])  # Output: 7 (index 2)
+print(x[-1])  # Output: 8 (last element)
+print(x[-2])  # Output: 7 (second-to-last element)
 
-x[-1] = 8
-x[-2] =7
+# len() returns the number of elements in the list
+print(len(x))  # Output: 4
 
-len(x): number of elements in the list
-
-
+# Function to calculate the class average using a list of integers
 def class_avg(averages: list[int]) -> int:
-  code
-lists help us organize data in a structure 
+    return sum(averages) // len(averages)
 
-To structure something is to give it shape like a beginning, and end
+# Lists help us organize data in a structured way.
 
-So far, we've only talked abput individual pieces od data in one variable at time>  Lists are like a mega variable that can hold many variables.
+# What is a structure?
+# A structure gives data shape, such as a beginning and an end.
+# So far, we have talked about individual pieces of data in one variable at a time.
+# Lists, however, are like mega-variables that can hold many variables.
 
-The syntax
---------
-Lists are denoted by an opening and closing square bracket. 
-Items (or elements) in a list are COMMA SEPARATED
+# The syntax for creating a list
+l = [4, 5, 6, 7]  # A list with four elements
 
-l =  [4.5.6.7]
+# All elements in a list have an index, their position.
+# List indices start at 0 (for most cases in Python).
 
-ALL elements in a list have an index, their position
+# Pulling a single value from the list
+print(l[1])  # Output: 5 (value at index 1)
 
-We can pull or update any single value in a list using its list. 
+# Lists can also use negative indexing (reverse order)
+print(l[-1])  # Output: 7 (last element)
+print(l[-2])  # Output: 6 (second-to-last element)
 
-l = [4.5.6.7]  0,1,2,3 or -4,-3,-2,-1
-NOTE: Lists start counting at 0 (99%)
-NOTE: In python, you can index in reverse 
+# Updating a list element
+l[0] = 99
+print(l)  # Output: [99, 5, 6, 7] (first element changed)
 
-Syntax to pull a single value
-l[,index to pull from.]
-l[1]=> 5
+# len() returns the number of elements in the list
+print(len(l))  # Output: 4
 
-Syntax to update an index 
-l[0] == 99
+# Adding a new element to the end of the list using append()
+l.append(4)
+print(l)  # Output: [99, 5, 6, 7, 4]
 
-now l looks like [99,5,6,7]
+# Removing an element from the list using remove()
+l.remove(4)
+print(l)  # Output: [99, 5, 6, 7] (removes the first occurrence of 4)
 
-length: len(l) -> returns the number of elements in the list, ex: 4
-append(): l.append(4) -> this adds to the endof the list ']
-remove(): l.remove(4) -> find an element and removes it
-if many same items in a list and remove an item: it removes the first one it sees 
+# Lists can store elements of different types, but it's generally better to keep them uniform.
 
-apend is one variable
+# Slicing a list (getting a sublist)
+# The syntax is l[start:end]
+sublist = l[1:3]  # Slicing from index 1 to 2 (end index is exclusive)
+print(sublist)  # Output: [5, 6]
 
-list can have many types but keep it only one 
+# Omitting the start or end of the slice
+print(l[:2])  # Output: [99, 5] (implicitly starts at index 0)
+print(l[2:])  # Output: [6, 7] (implicitly goes to the end of the list)
 
- can't enforece one type 
-
-Slicing, we can get sublists from a list or a smaller version
-
-The syntax is
-l[_: _]
-
-On the left, we put _, we put the lower bound of the sublist INCLUSIVE
-
-When I omit the left number, what happens is a 0 is placed there implicitly
-
-On the right_, we put the uppr bound of the sublist EXCLUSIVE (aka up to but not including)
-
-When I omit the right number, it implicitly takes to the end of the list
-  
-One more thing:
-Surprise! Strings are lists, lists of characters
-
+# One more thing: Strings are essentially lists of characters
+s = "hello"
+print(s[1:4])  # Output: "ell" (substring from index 1 to 3)
