@@ -617,3 +617,13 @@ Directory Structures
 1st: ALL files live in a folder 
 2nd: Every folder is inside a folder
 3rd: The top most folder is called the root by a slash and/or the nsmae of the dive. 
+
+c -docs
+    -thing1.pdf
+    -thing2.pdf
+  -pics
+    -2023
+      -bday.jpg
+  -downloads
+
+
