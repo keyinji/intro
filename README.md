@@ -540,36 +540,38 @@ lines executed: 1, 2, 3, 2, 4, 2, 5
   - Convert data types (e.g., `int()`, `str()`, `float()`).
 
 
-# Lists: Lots of Data, Structures
+```markdown
+## Lists: Lots of Data, Structures
 
-# Lists are collections of items that help us organize data in a structured way.
+Lists are collections of items that help us organize data in a structured way.
 
+### Indexing
+```python
 x = [2, 5, 7, 8]  # Example of a list with four elements
 
 # Indexing starts at 0
 print(x[2])  # Output: 7 (index 2)
 print(x[-1])  # Output: 8 (last element)
 print(x[-2])  # Output: 7 (second-to-last element)
+```
 
+### Length of Lists
+```python
 # len() returns the number of elements in the list
 print(len(x))  # Output: 4
+```
 
+### Function Example
+```python
 # Function to calculate the class average using a list of integers
 def class_avg(averages: list[int]) -> int:
     return sum(averages) // len(averages)
+```
 
-# Lists help us organize data in a structured way.
-
-# What is a structure?
-# A structure gives data shape, such as a beginning and an end.
-# So far, we have talked about individual pieces of data in one variable at a time.
-# Lists, however, are like mega-variables that can hold many variables.
-
+### Creating and Modifying Lists
+```python
 # The syntax for creating a list
 l = [4, 5, 6, 7]  # A list with four elements
-
-# All elements in a list have an index, their position.
-# List indices start at 0 (for most cases in Python).
 
 # Pulling a single value from the list
 print(l[1])  # Output: 5 (value at index 1)
@@ -582,9 +584,6 @@ print(l[-2])  # Output: 6 (second-to-last element)
 l[0] = 99
 print(l)  # Output: [99, 5, 6, 7] (first element changed)
 
-# len() returns the number of elements in the list
-print(len(l))  # Output: 4
-
 # Adding a new element to the end of the list using append()
 l.append(4)
 print(l)  # Output: [99, 5, 6, 7, 4]
@@ -592,9 +591,10 @@ print(l)  # Output: [99, 5, 6, 7, 4]
 # Removing an element from the list using remove()
 l.remove(4)
 print(l)  # Output: [99, 5, 6, 7] (removes the first occurrence of 4)
+```
 
-# Lists can store elements of different types, but it's generally better to keep them uniform.
-
+### Slicing Lists
+```python
 # Slicing a list (getting a sublist)
 # The syntax is l[start:end]
 sublist = l[1:3]  # Slicing from index 1 to 2 (end index is exclusive)
@@ -603,7 +603,17 @@ print(sublist)  # Output: [5, 6]
 # Omitting the start or end of the slice
 print(l[:2])  # Output: [99, 5] (implicitly starts at index 0)
 print(l[2:])  # Output: [6, 7] (implicitly goes to the end of the list)
+```
 
+### Strings as Lists
+```python
 # One more thing: Strings are essentially lists of characters
 s = "hello"
 print(s[1:4])  # Output: "ell" (substring from index 1 to 3)
+```
+
+
+Directory Structures
+1st: ALL files live in a folder 
+2nd: Every folder is inside a folder
+3rd: The top most folder is called the root by a slash and/or the nsmae of the dive. 
