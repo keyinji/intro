@@ -626,4 +626,50 @@ c -docs
       -bday.jpg
   -downloads
 
+command 
+cd <DST> 
+descirption:
+changes the current working directory to <DST>
+
+cd .. 
+description:
+changes dir to the parent dir
+
+ls 
+descripiton:
+list all the files and folder in the current directory
+
+cat <file>
+description:
+prints the content of the file
+
+# Hidden files
+
+In Unix-like operating systems, hidden files (or directories) are those whose name begins with a
+dot, like `.next`
+
+When using `ls` (among other things) by itself, hidden files are not shown.
+
+The `-a` (dash a) we added to ls is called a _switch_ or a _flag_ or an _option._
+It modified the behaviour of ls to show _all_ files (that's what the `a` in `-a` stands for.)
+
+Each program has its own set of available flags.
+
+- `cp SRC DST`
+    - copies the entry located at SRC to DST
+    - only copies a single _file_ by default, not directories
+    - use `-r` option to Recursively copy directories and their contents
+- `rm FILE`
+    - ReMoves an file. The deletion is permanent and the file cannot be recovered.
+    - only removes a single _file_ by default, not directories
+    - use `-r` option to Recursively delete directories and their contents
+- `mv SRC DST`
+    - MoVes an entry from SRC to DST
+    - the entry can be either a file or a directory; no `-r` is needed.
+    - this is also used to rename entries
+- `rmdir DIR`
+    - ReMoves a DIRectory.
+    - The directory must be empty for this to succeed.
+
+
 
