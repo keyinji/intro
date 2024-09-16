@@ -540,7 +540,7 @@ lines executed: 1, 2, 3, 2, 4, 2, 5
   - Convert data types (e.g., `int()`, `str()`, `float()`).
 
 
-```markdown
+
 ## Lists: Lots of Data, Structures
 
 Lists are collections of items that help us organize data in a structured way.
