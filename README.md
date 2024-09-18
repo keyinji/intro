@@ -679,6 +679,44 @@ cd .. | cd .. | cd B
 cd ../../B
 cd u/B
 
+USING VIM
+-------------
+This is an old editor that you can use in the terminal.
+This is great because often, when we connect to remote computers, we only have a terminal to interface with them.
+Remember, the internet is run on servers that don't have monitors connected.
+The advantage of VIM is you don't use your mouse
+The best way to use vim is to keep your fingers on the HOME ROW: asdfghjkl. Left pinky on A, and right pinky on L
+
+Vim modes
+------------
+Has 2 main modes:
+  1. Insert Mode:
+     When you use the KB to input text
+  2. Normal Mode:
+     Where you ise the KB to navigate the file
+By DEFAULT, when you open VIM it's in INSERT mode
+
+To go INSERT -> NORMAL MODE: hit esscape
+To go NORMAL -> INSERT MODEL hit i
+
+
+DELETE A LINE: in NORMAL MODE, go on the line and press dd
+NAVIGATE IN NORMAL MODE: use h j k l
+TO HIGHLIGHT A LINE: shift v on the line
+COPY A LINE: press Y
+TO PASTE: press P
+
+
+WRITE: to save a file, be in normal mode
+  -press colon (:)
+  -press w
+  -hit enter 
+TO QUIT VIM: to leave bim 
+  -press colon (:)
+  -press q
+  -hit enter 
+
+
 
 
 
