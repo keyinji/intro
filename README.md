@@ -668,8 +668,17 @@ Each program has its own set of available flags.
     - the entry can be either a file or a directory; no `-r` is needed.
     - this is also used to rename entries
 - `rmdir DIR`
-    - ReMoves a DIRectory.
+    - Removes a DIRectory.
     - The directory must be empty for this to succeed.
+- `mkdir DIR`
+    - Creates a directory
+- `touch FILE-NAME`
+    - Creates a file with nothing in it
+ 
+cd .. | cd .. | cd B
+cd ../../B
+cd u/B
+
 
 
 
