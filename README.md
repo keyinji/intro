@@ -737,6 +737,9 @@ Very helpful for collaboration
 
 Git is one technology (on the command line) that helps us manage changes. About 95% of software comapnies in 2024 use git
 
+Git helps us keep track of changes but we still need to store the files somewhere. This is where companies like github, gitlab come into play. These companies _host_ our code. 
+
+
 
 
 
