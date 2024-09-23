@@ -679,42 +679,65 @@ cd .. | cd .. | cd B
 cd ../../B
 cd u/B
 
-USING VIM
--------------
-This is an old editor that you can use in the terminal.
-This is great because often, when we connect to remote computers, we only have a terminal to interface with them.
-Remember, the internet is run on servers that don't have monitors connected.
-The advantage of VIM is you don't use your mouse
-The best way to use vim is to keep your fingers on the HOME ROW: asdfghjkl. Left pinky on A, and right pinky on L
+# Using Vim
 
-Vim modes
-------------
-Has 2 main modes:
-  1. Insert Mode:
-     When you use the KB to input text
-  2. Normal Mode:
-     Where you ise the KB to navigate the file
-By DEFAULT, when you open VIM it's in INSERT mode
+Vim is a classic text editor that runs in the terminal. It's particularly useful for remote connections where only a terminal interface is available, as most servers don’t have monitors connected. One of Vim's advantages is that it allows you to work efficiently without a mouse. Keep your fingers on the home row: `asdfghjkl` (left pinky on A, right pinky on L).
 
-To go INSERT -> NORMAL MODE: hit esscape
-To go NORMAL -> INSERT MODEL hit i
+## Vim Modes
+
+Vim has two main modes:
+
+1. **Insert Mode**:  
+   This is where you input text using the keyboard.
+
+2. **Normal Mode**:  
+   This mode is for navigating and manipulating the text.
+
+By default, Vim starts in **Insert Mode**.
+
+- To switch from **Insert Mode** to **Normal Mode**, hit `Escape`.
+- To switch from **Normal Mode** to **Insert Mode**, press `i`.
+
+### Basic Commands
+
+- **Delete a Line**: In Normal Mode, navigate to the line and press `dd`.
+- **Navigate in Normal Mode**: Use the keys `h`, `j`, `k`, `l`.
+- **Highlight a Line**: Press `Shift + v` on the line.
+- **Copy a Line**: Press `Y`.
+- **Paste**: Press `P`.
+
+### Saving and Quitting
+
+- **To Save a File**: Ensure you're in Normal Mode:
+  - Press `:` (colon).
+  - Type `w` and hit `Enter`.
+
+- **To Quit Vim**: 
+  - Press `:` (colon).
+  - Type `q` and hit `Enter`.
+
+## Tools for Software Development
+
+We’ve discussed several tools for software development:
+
+- **Vim**: Text editing.
+- **Command Line (Git Bash)**: Running programs and managing files.
+- **Git**: For version control.
+
+## Git
+
+Git is a powerful tool that helps you:
+
+1. Distribute files.
+2. Keep track of changes.
+
+Version control keeps track of all the changes in a file with time stamps, you can jump back to a previous version of a file easily
+
+Very helpful for collaboration
+
+Git is one technology (on the command line) that helps us manage changes. About 95% of software comapnies in 2024 use git
 
 
-DELETE A LINE: in NORMAL MODE, go on the line and press dd
-NAVIGATE IN NORMAL MODE: use h j k l
-TO HIGHLIGHT A LINE: shift v on the line
-COPY A LINE: press Y
-TO PASTE: press P
-
-
-WRITE: to save a file, be in normal mode
-  -press colon (:)
-  -press w
-  -hit enter 
-TO QUIT VIM: to leave bim 
-  -press colon (:)
-  -press q
-  -hit enter 
 
 
 
