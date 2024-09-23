@@ -739,7 +739,9 @@ Git is one technology (on the command line) that helps us manage changes. About 
 
 Git helps us keep track of changes but we still need to store the files somewhere. This is where companies like github, gitlab come into play. These companies _host_ our code. 
 
-
+GIT CLONE
+On sites like github, gitlab, people post their code base.
+On the command line, we can download people's projects using git 
 
 
 
