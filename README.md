@@ -743,6 +743,9 @@ GIT CLONE
 On sites like github, gitlab, people post their code base.
 On the command line, we can download people's projects using git 
 
+git add a1.py
+git commit -m "good message"
+git push
 
 
 
