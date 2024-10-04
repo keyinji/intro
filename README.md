@@ -748,6 +748,74 @@ git commit -m "good message"
 git push
 
 
+Loops
 
+So far we have talked a lot about expressions, code that is simplified to a value.
+
+3 + 5 % 3 > ...
+
+Statements are pieces of code that don't simpify but they do something
+
+print("Hello") -> print to stdout return ___ -> contains an expression or value but ultimately it does something, it returns the flow of execution from where  it came 
+
+
+if ___ -> contains an expression, but ultimately, it controls the flow of the code through branches
+
+
+for loops and while loops
+
+-another big control flow mechanism
+
+
+recap: 
+if -> branch the code
+function calls and returns -> jump 
+"new" for and while loops -> repeats blocks of code
+
+for loops: we have control how many times it runs and what code is run,
+
+
+
+to control how many times it runs, we look at the "for __ in _______:"
+
+to control what is run, we keep indented
+
+for x in [1, 2, 3, 4, 5]:
+  print("Hello")
+  print("x is " + str(x))
+
+  x = 1 
+  print("Hello")
+  print("x is " + str(x))
+    x = 2
+  print("Hello")
+  print("x is " + str(x))
+    x = 3
+  print("Hello")
+  print("x is " + str(x))
+    x = 4 
+  print("Hello")
+  print("x is " + str(x))
+    x = 5
+  print("Hello")
+  print("x is " + str(x))
+
+python will "explode" the code for the for loop like this 
+
+for x in [1, 2, 3, 4, 5]:
+  if x == 0 or x == 5: 
+    print(".."
+  for y in [0,1,2]:
+    if y == x:
+   ....
+
+
+range(100) = [1,2,3,4,5,6,... ]
+range(n) list from 0 to n with jump 1 
+range(K,N) list from k to n incrementing by 1
+range(K,N, step) list from k to n incrementing by step
+
+
+   
 
 
