@@ -816,6 +816,18 @@ range(K,N) list from k to n incrementing by 1
 range(K,N, step) list from k to n incrementing by step
 
 
+What does git remote add origin do? WHy is this important? draw a diagram to illustrate the changes after running the command. 
+
+What is the differnece between a commit and an add? WHy do you do one or the other? 
+
+WHat is the timeline? what pointers are important to the timeline? (looking for 2 special pointers)
+
+coding-cat.club
+3 list 2 
+2 list-2 problems 
+1 list 
+1 logic
+
    
 
 
